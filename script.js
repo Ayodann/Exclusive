@@ -54,25 +54,6 @@ const searchContainer = document.querySelector("s.earch-container");
 
 searchBtn.addEventListener("click", (e) => {
   if (window.innerWidth <= 1023) {
-    //     if (!searchContainer.classList.contains("active")) {
-    //       searchContainer.classList.add("active");
-    //       searchInput.focus();
-    //     } else {
-    //       const query = searchInput.ariaValueMax.trim();
-    //       if (query) {
-    //         alert('searching for: " + query');
-    //       } else {
-    //         searchContainer.classList.remove("active");
-    //       }
-    //     }
-    //   } else {
-    //     const query = searchInput.ariaValueMax.trim();
-    //     if (query) {
-    //       alert('searching for : " + query');
-    //     }
-    //   }
-    // }
-
     e.preventDefault();
     if (searchInput.ariaValueMax.trim() === "") {
       searchContainer.classList.toggle("active");
