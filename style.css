@@ -1002,6 +1002,10 @@ footer button img {
     font-size: small;
   }
 
+  .label {
+    justify-content: space-between;
+  }
+
   /* special sales */
 
   .timed-text {
@@ -1040,7 +1044,7 @@ footer button img {
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 600px) {
   /* head */
   .summer-text span {
     display: none;
@@ -1055,10 +1059,6 @@ footer button img {
   h1 {
     width: 28%;
   }
-  /* 
-  nav {
-    position: relative;
-  } */
 
   .dropdownimg {
     width: 20px;
@@ -1192,6 +1192,14 @@ footer button img {
     text-align: center;
   }
 
+  .flashsales {
+    gap: 20px;
+  }
+
+  .flashsales h2 {
+    font-size: large;
+  }
+
   /* featured */
 
   .all {
@@ -1224,5 +1232,20 @@ footer button img {
 
   .footerhead {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .flashsales {
+    display: block;
+  }
+
+  .flashsales h2 {
+    margin-bottom: 20px;
+  }
+
+  .numbers {
+    gap: unset;
+    justify-content: space-between;
   }
 }
