@@ -1,5 +1,5 @@
-const targetDate = new Date("oct 27, 2025 00:00:00").getTime();
-const endDate = new Date("oct 30 ,2025 00:00:00").getTime();
+const targetDate = new Date("jul 10, 2026 00:00:00").getTime();
+const endDate = new Date("jul 20, 2026 00:00:00").getTime();
 
 const countdown = setInterval(() => {
   const now = new Date().getTime();
